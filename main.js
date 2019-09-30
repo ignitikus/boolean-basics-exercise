@@ -46,7 +46,15 @@ function neither(condition1, condition2) {
 }
 
 function itsComplicated(condition1, condition2, condition3) {
-
+  if (condition1 === false){
+    return true;
+  }
+  else if (condition2 && condition3){
+    return true;
+  }
+  else {
+    return false;
+  }
 }
 
 
